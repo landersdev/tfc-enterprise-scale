@@ -8,5 +8,8 @@ module "caf-enterprise-scale" {
     azurerm.management   = azurerm
   }
 
-  root_parent_id = var.root_parent_id
+  root_parent_id  = var.root_parent_id
+  root_id         = var.root_id
+  root_name       = var.root_name
+
 }
